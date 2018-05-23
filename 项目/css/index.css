@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #7f7f7a;
+  list-style: none;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+#top {
+  height: 31px;
+  width: 100%;
+  line-height: 31px;
+  background-color: #f5f4f4;
+  color: #7f7f7a;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 12px;
+}
+#top div {
+  width: 1190px;
+  margin: 0 auto;
+}
+#top div span {
+  float: left;
+}
+#top div span em {
+  color: #3e3a39;
+  padding-left: 5px;
+}
+#top div span a {
+  margin-left: 10px;
+  color: #e3393c;
+}
+#top div ul {
+  width: 200px;
+  float: left;
+  margin-left: 44px;
+}
+#top div ul span {
+  padding: 0 5px;
+}
+#top div ul li {
+  float: left;
+}
+#top div #quick_list {
+  float: right;
+  width: 484px;
+  margin: 0;
+}
+#top div #quick_list li {
+  float: left;
+  padding: 0 8px 0 8px;
+}
+
+#header {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+#header div {
+  position: relative;
+  width: 1190px;
+  height: 90px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+#header div image {
+  float: left;
+  display: block;
+}
+#header div #search {
+  height: 60px;
+  width: 590px;
+  position: absolute;
+  top: 30px;
+  left: 335px;
+  padding: 0;
+  float: right;
+}
+#header div #search .sea1 {
+  height: 34px;
+  width: 586px;
+  border: 2px solid #dd0207;
+  padding: 0;
+}
+#header div #search .sea1 lable {
+  position: absolute;
+  left: 0;
+  width: 55px;
+  text-indent: 12px;
+  font-size: 12px;
+  line-height: 34px;
+  cursor: pointer;
+  color: #484e52;
+}
+#header div #search .sea1 #in1 {
+  width: 450px;
+  height: 34px;
+  padding-left: 12px;
+  position: relative;
+  left: 56px;
+  background-color: #fff;
+  line-height: 34px;
+  color: #333333;
+  font-size: 12px;
+  border-right: 0;
+  border: 0 none;
+}
+#header div #search .sea1 #in2 {
+  background: #dd0207;
+  width: 67px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 34px;
+  letter-spacing: 2px;
+  border-left: 1px solid #f45670;
+  float: right;
+  border: 0 none;
+}
+#header div #search .sea2 {
+  height: 20px;
+  width: 590px;
+  padding: 0;
+}
+#header div #search .sea2 ul li {
+  float: left;
+  margin-right: 10px;
+  font-size: 12px;
+}
+#header div #picright {
+  position: absolute;
+  right: 0;
+  top: 30;
+}
+
+#nav-bar {
+  width: 100%;
+  height: 36px;
+  border-bottom: 1px solid #d2041f;
+}
+#nav-bar #nav-content {
+  width: 1190px;
+  height: 35px;
+  margin: 0 auto;
+}
+#nav-bar #nav-content #nav-all {
+  width: 200px;
+  height: 36px;
+  background: #DD0207;
+  float: left;
+  font-size: 16px;
+}
+#nav-bar #nav-content #nav-all a {
+  color: #fff;
+  margin-left: 14px;
+  padding-left: 31px;
+  line-height: 35px;
+  background-image: url(../images/reyqy_03.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#nav-bar #nav-content ul {
+  float: left;
+  margin-left: 56px;
+  line-height: 35px;
+}
+#nav-bar #nav-content ul li {
+  float: left;
+  margin-right: 78px;
+  font-size: 15px;
+}
+
+#nav {
+  width: 100%;
+  height: 490px;
+  overflow: hidden;
+  position: relative;
+}
+#nav ul li {
+  display: none;
+}
+#nav ul li img {
+  position: absolute;
+  left: -328px;
+}
+
+/*# sourceMappingURL=index.css.map */
